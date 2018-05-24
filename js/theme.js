@@ -62,25 +62,6 @@ function BannerVideoSlider () {
       loops:false,
       delay:10000,
       navigation: {
-          arrows: {
-                    style: "hermes",
-                    enable: true,
-                    hide_onmobile: false,
-                    hide_onleave: false,
-                    tmp: '<div class="tp-arr-allwrapper"> <div class="tp-arr-imgholder"></div>  <div class="tp-arr-titleholder">{{title}}</div> </div>',
-                    left: {
-                        h_align: "left",
-                        v_align: "center",
-                        h_offset: 0,
-                        v_offset: 0
-                    },
-                    right: {
-                        h_align: "right",
-                        v_align: "center",
-                        h_offset: 0,
-                        v_offset: 0
-                    }
-                },
          bullets: {
                   enable: false,
               }
